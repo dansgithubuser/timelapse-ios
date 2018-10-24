@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		655BD2C0217FF77F0066709B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655BD2BF217FF77F0066709B /* AppDelegate.swift */; };
+		655BD2C2217FF77F0066709B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655BD2C1217FF77F0066709B /* ViewController.swift */; };
+		655BD2C5217FF7800066709B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 655BD2C3217FF7800066709B /* Main.storyboard */; };
+		655BD2C7217FF7800066709B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 655BD2C6217FF7800066709B /* Assets.xcassets */; };
+		655BD2CA217FF7800066709B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 655BD2C8217FF7800066709B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		655BD2BC217FF77F0066709B /* timelapse-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "timelapse-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		655BD2BF217FF77F0066709B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		655BD2C1217FF77F0066709B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		655BD2C4217FF7800066709B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		655BD2C6217FF7800066709B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		655BD2C9217FF7800066709B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		655BD2CB217FF7800066709B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		655BD2B9217FF77E0066709B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		655BD2B3217FF77E0066709B = {
+			isa = PBXGroup;
+			children = (
+				655BD2BE217FF77F0066709B /* timelapse-ios */,
+				655BD2BD217FF77F0066709B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		655BD2BD217FF77F0066709B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				655BD2BC217FF77F0066709B /* timelapse-ios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		655BD2BE217FF77F0066709B /* timelapse-ios */ = {
+			isa = PBXGroup;
+			children = (
+				655BD2BF217FF77F0066709B /* AppDelegate.swift */,
+				655BD2C1217FF77F0066709B /* ViewController.swift */,
+				655BD2C3217FF7800066709B /* Main.storyboard */,
+				655BD2C6217FF7800066709B /* Assets.xcassets */,
+				655BD2C8217FF7800066709B /* LaunchScreen.storyboard */,
+				655BD2CB217FF7800066709B /* Info.plist */,
+			);
+			path = "timelapse-ios";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		655BD2BB217FF77E0066709B /* timelapse-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 655BD2CE217FF7800066709B /* Build configuration list for PBXNativeTarget "timelapse-ios" */;
+			buildPhases = (
+				655BD2B8217FF77E0066709B /* Sources */,
+				655BD2B9217FF77E0066709B /* Frameworks */,
+				655BD2BA217FF77E0066709B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "timelapse-ios";
+			productName = "timelapse-ios";
+			productReference = 655BD2BC217FF77F0066709B /* timelapse-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		655BD2B4217FF77E0066709B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				TargetAttributes = {
+					655BD2BB217FF77E0066709B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = G7ZYMX8AB6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 655BD2B7217FF77E0066709B /* Build configuration list for PBXProject "timelapse-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 655BD2B3217FF77E0066709B;
+			productRefGroup = 655BD2BD217FF77F0066709B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				655BD2BB217FF77E0066709B /* timelapse-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		655BD2BA217FF77E0066709B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655BD2CA217FF7800066709B /* LaunchScreen.storyboard in Resources */,
+				655BD2C7217FF7800066709B /* Assets.xcassets in Resources */,
+				655BD2C5217FF7800066709B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		655BD2B8217FF77E0066709B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655BD2C2217FF77F0066709B /* ViewController.swift in Sources */,
+				655BD2C0217FF77F0066709B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		655BD2C3217FF7800066709B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				655BD2C4217FF7800066709B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		655BD2C8217FF7800066709B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				655BD2C9217FF7800066709B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		655BD2CC217FF7800066709B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		655BD2CD217FF7800066709B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		655BD2CF217FF7800066709B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G7ZYMX8AB6;
+				INFOPLIST_FILE = "timelapse-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.timelapse-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		655BD2D0217FF7800066709B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G7ZYMX8AB6;
+				INFOPLIST_FILE = "timelapse-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.timelapse-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		655BD2B7217FF77E0066709B /* Build configuration list for PBXProject "timelapse-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				655BD2CC217FF7800066709B /* Debug */,
+				655BD2CD217FF7800066709B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		655BD2CE217FF7800066709B /* Build configuration list for PBXNativeTarget "timelapse-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				655BD2CF217FF7800066709B /* Debug */,
+				655BD2D0217FF7800066709B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 655BD2B4217FF77E0066709B /* Project object */;
+}
