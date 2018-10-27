@@ -27,6 +27,13 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
 			userInfo: nil,
 			repeats: true
 		)
+		Timer.scheduledTimer(
+			timeInterval: 5,
+			target: self,
+			selector: #selector(ViewController.presentPicker),
+			userInfo: nil,
+			repeats: false
+		)
 	}
 
 	override func didReceiveMemoryWarning() {
@@ -48,9 +55,9 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
 	}
 
 	func takePicture() {
-		NSLog("taking picture");
+		NSLog("taking picture")
 		self._picker.takePicture()
-		NSLog("took picture");
+		NSLog("took picture")
 	}
 
 	func imagePickerController(
