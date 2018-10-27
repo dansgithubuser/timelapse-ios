@@ -34,6 +34,13 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
 			userInfo: nil,
 			repeats: false
 		)
+		Timer.scheduledTimer(
+			timeInterval: 10,
+			target: self,
+			selector: #selector(ViewController.takePicture),
+			userInfo: nil,
+			repeats: true
+		)
 	}
 
 	override func didReceiveMemoryWarning() {
@@ -43,14 +50,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
 
 	func presentPicker() {
 		NSLog("presenting picker")
-		self.present(_picker, animated: false, completion: nil)
-		Timer.scheduledTimer(
-			timeInterval: 5,
-			target: self,
-			selector: #selector(ViewController.takePicture),
-			userInfo: nil,
-			repeats: false
-		)
+		self.present(_picker, animated: false)
 		NSLog("presented picker")
 	}
 
@@ -67,7 +67,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
 		NSLog("saving image");
 		if let image = info[UIImagePickerControllerOriginalImage] as? UIImage {
 			UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil)
-			dismiss(animated: false, completion: nil)
+			dismiss(animated: false)
 			NSLog("saved image");
 		}
 		else { NSLog("couldn't save image"); }
